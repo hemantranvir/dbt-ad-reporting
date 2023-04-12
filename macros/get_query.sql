@@ -1,6 +1,6 @@
 {% macro get_query(platform=None, report_type=None, field_mapping=None, relation=None) %}
 
-{%- set consistent_fields = ['spend', 'impressions', 'clicks'] -%}
+{%- set consistent_fields = ['spend', 'impressions', 'clicks', 'clerk_org_id'] -%}
 {%- set account_fields = ['account_id', 'account_name'] -%}
 {%- set campaign_fields = ['campaign_id', 'campaign_name'] -%}
 {%- set ad_group_fields = ['ad_group_id', 'ad_group_name'] -%}

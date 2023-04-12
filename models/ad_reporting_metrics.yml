@@ -13,6 +13,7 @@ metrics:
     time_grains: [day, week, month]
 
     dimensions:
+      - clerk_org_id
       - platform
       - campaign_id
       - campaign_name
@@ -35,6 +36,7 @@ metrics:
     time_grains: [day, week, month]
 
     dimensions:
+      - clerk_org_id
       - platform
       - campaign_id
       - campaign_name
@@ -57,6 +59,7 @@ metrics:
     time_grains: [day, week, month]
 
     dimensions:
+      - clerk_org_id
       - platform
       - campaign_id
       - campaign_name
@@ -78,6 +81,7 @@ metrics:
     time_grains: [day, week, month]
 
     dimensions:
+      - clerk_org_id
       - platform
       - campaign_id
       - campaign_name
@@ -99,6 +103,7 @@ metrics:
     time_grains: [day, week, month]
 
     dimensions:
+      - clerk_org_id
       - platform
       - campaign_id
       - campaign_name
@@ -120,6 +125,7 @@ metrics:
     time_grains: [day, week, month]
 
     dimensions:
+      - clerk_org_id
       - platform
       - campaign_id
       - campaign_name
@@ -142,6 +148,7 @@ metrics:
     time_grains: [day, week, month]
 
     dimensions:
+      - clerk_org_id
       - platform
       - campaign_id
       - campaign_name
@@ -167,6 +174,7 @@ metrics:
     time_grains: [week, month]
 
     dimensions:
+      - clerk_org_id
       - platform
       - campaign_id
       - campaign_name
@@ -192,6 +200,7 @@ metrics:
     time_grains: [week, month]
 
     dimensions:
+      - clerk_org_id
       - platform
       - campaign_id
       - campaign_name

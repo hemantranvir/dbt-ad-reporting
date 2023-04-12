@@ -11,6 +11,7 @@ aggregated as (
     
     select 
         date_day, 
+        clerk_org_id,
         platform,
         account_id, 
         account_name, 
