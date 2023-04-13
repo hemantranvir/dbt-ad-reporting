@@ -27,6 +27,8 @@ models:
         description: '{{ doc("impressions") }}'
       - name: spend
         description: '{{ doc("spend") }}'
+      - name: clerk_org_id
+        description: 'Clerk org id for this account/organization'
   
   - name: ad_reporting__ad_group_report
     description: Each record represents daily metrics by ad group, campaign and account.
@@ -63,6 +65,8 @@ models:
         description: '{{ doc("impressions") }}'
       - name: spend
         description: '{{ doc("spend") }}'
+      - name: clerk_org_id
+        description: 'Clerk org id for this account/organization'
 
   - name: ad_reporting__ad_report
     description: Each record represents daily metrics by ad, ad group, campaign and account. 
@@ -104,6 +108,8 @@ models:
         description: '{{ doc("impressions") }}'
       - name: spend  
         description: '{{ doc("spend") }}'
+      - name: clerk_org_id
+        description: 'Clerk org id for this account/organization'
 
   - name: ad_reporting__campaign_report
     description: Each record represents daily metrics by campaign and account.
@@ -135,6 +141,8 @@ models:
         description: '{{ doc("impressions") }}'
       - name: spend  
         description: '{{ doc("spend") }}'
+      - name: clerk_org_id
+        description: 'Clerk org id for this account/organization'
 
   - name: ad_reporting__keyword_report
     description: Each record represents daily metrics by keyword, ad group, campaign and account.
@@ -179,6 +187,8 @@ models:
         description: '{{ doc("impressions") }}'
       - name: spend  
         description: '{{ doc("spend") }}'
+      - name: clerk_org_id
+        description: 'Clerk org id for this account/organization'
   
   - name: ad_reporting__search_report
     description: Each record represents daily metrics by search query, ad group, campaign and account. 
@@ -226,6 +236,8 @@ models:
         description: '{{ doc("impressions") }}'
       - name: spend  
         description: '{{ doc("spend") }}' 
+      - name: clerk_org_id
+        description: 'Clerk org id for this account/organization'
 
   - name: ad_reporting__url_report
     description: Each record represents daily metrics by URL (and if applicable, URL UTM parameters), ad group, campaign and account. 
@@ -292,3 +304,5 @@ models:
         description: '{{ doc("impressions") }}'
       - name: spend  
         description: '{{ doc("spend") }}' 
+      - name: clerk_org_id
+        description: 'Clerk org id for this account/organization'
